@@ -1,0 +1,46 @@
+.container{
+display: flex;
+}
+.block-1{
+    
+    width: 200px;
+    height: 300px;
+    border: 5px solid #333;
+    border-radius: 10px;
+    background-color: #ffe4c4;
+    margin: 100px;
+    transition: 3s 2s;
+    
+}
+.block-1:hover{
+    
+    width: 200px;
+    height: 300px;
+    border: 5px solid #9eda2f;
+    border-radius: 10px;
+    background-color: #ffe4c4;
+    margin: 100px;
+    
+    
+}
+.block-2{
+    
+    width: 200px;
+    height: 300px;
+    border: 5px solid #333;
+    border-radius: 10px;
+    background-color: #ffe4c4;
+    margin: 100px;
+    transition: background-color 2s,border 2s 2s ;
+    
+}
+.block-2:hover{
+    
+    width: 200px;
+    height: 300px;
+    border: 7px solid rgb(189, 37, 156);
+    border-radius: 10px;
+    background-color: #8435c4;
+    margin: 100px;
+    
+}
